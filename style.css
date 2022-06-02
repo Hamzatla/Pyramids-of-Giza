@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Nunito:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: "Kanit", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+p {
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+h1,
+h2 {
+  font-weight: 600;
+}
+h4 {
+  font-weight: 400;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1 {
+  color: #6c6c6c;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin: 0;
+}
+h3 {
+  color: #f0bd6d;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+/* NAVBAR CSS */
+#nav {
+  background: #371508;
+  padding: 0rem;
+}
+#nav nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.navbar-brand {
+  color: #febd6d;
+}
+.navabr-brand h3 {
+  letter-spacing: 3px;
+  font-size: 1.3rem;
+}
+#nav nav ul {
+  display: flex;
+}
+#nav nav ul li {
+  padding: 1.8rem;
+}
+#nav nav ul li a {
+  color: #fff;
+}
+#banner {
+  background: url(/assets/css/images/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 680px;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.6;
+  z-index: 1;
+}
+.banner-content {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.banner-content h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+.banner-content h4 {
+  display: inline-block;
+  background: #000;
+  font-size: 1.4rem;
+  color: #febd6d;
+  padding: 1rem;
+  border: 1px solid #febd6d;
+  margin-top: -20px;
+}
+.banner-content p {
+  color: #fff;
+}
+.banner-content a {
+  margin-top: 1.5rem;
+  display: inline-block;
+  padding: 0.6rem 2rem;
+  background: transperant;
+  border: 2px solid #febd6d;
+  color: #febd6d;
+}
+#short-intro {
+  margin-top: 5rem;
+}
+.text-center {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.d-flex {
+  display: flex;
+}
+.detail-col {
+  max-width: 50%;
+  padding: 1rem;
+}
+.detail-col img {
+  max-width: 100%;
+}
+#img-gallery .img-thumb {
+  max-width: 32%;
+  margin-right: 1rem;
+}
+#img-gallery .img-thumb img {
+  width: 100%;
+  height: 100%;
+}
+#img-gallery .img-thumb p {
+  background: #000;
+  color: #fff;
+  margin-top: 0;
+  padding: 1rem;
+  font-weight: 600;
+}
+#img-gallery {
+  margin-top: 5rem;
+  background-color: #fce3c1;
+  padding: 5rem 0;
+}
+#details {
+  margin-top: 5rem;
+}
+footer {
+  background: #060505;
+  text-align: center;
+  color: #fce3c1;
+  padding: 1rem;
+}
+footer p {
+  font-size: 1rem;
+  margin: 0;
+}
+#cta {
+  padding: 4rem 0;
+}
+
+#cta .btn {
+  display: inline-block;
+  margin-top: 2rem;
+  background: #ea9a57;
+  color: #fff;
+  padding: 0.7rem 2rem;
+}
+.about-pyramids {
+  margin-top: 5rem;
+}
+.about-pyramids .d-flex {
+  align-items: center;
+  margin-top: 3rem;
+}
+.about-img {
+  max-width: 50%;
+}
+.about-img img {
+  width: 100%;
+}
+.about-content {
+  max-width: 50%;
+  padding: 0 1rem;
+}
+.signup {
+  margin: 5rem 0;
+  height: 500px;
+}
+.signup .container {
+  max-width: 50%;
+}
+.signup .container h1 {
+  margin-bottom: 2rem;
+}
+.signup form .form-control {
+  width: 100%;
+  padding: 0.6rem 0 0.6rem 0;
+  margin-bottom: 1.5rem;
+  padding-left: 0.6em;
+}
+.submit-btn {
+  background-color: #ea9a57;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  margin-top: 1.8rem;
+}
+@media only screen and (max-width: 1060px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 930px) {
+  html {
+    font-size: 13px;
+  }
+  .banner-content h1 {
+    font-size: 3.3rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 13px;
+  }
+  #banner {
+    height: 500px;
+  }
+  .banner-content h4 img {
+    display: none;
+  }
+
+  .d-flex {
+    display: block;
+  }
+  .detail-col {
+    max-width: 100%;
+  }
+  #img-gallery .img-thumb {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .about-content {
+    max-width: 100%;
+  }
+  .about-img {
+    max-width: 100%;
+    margin: 2rem 0;
+  }
+  .signup .container {
+    max-width: 80%;
+  }
+}
